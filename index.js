@@ -1,37 +1,5 @@
-
-//for (let age=30; age < 40 ; age++){
-  //console.log(`I'm ${age} years old.Happy birthday to me`)
-  //debugger;
-//}
-  
-//const gifts=["teddy bear", "drone", "doll"]
-
-//function wrapGifts(gifts){
-  //for (let i =0;i < gifts.length; i++){
-    //console.log(`Wrapped ${gifts[i]} and added a bow!`);
-    //debugger;
-  //}
-  //return gifts
-//}
-
-//wrapGifts(gifts)
-
-
-//function writeCards(names,events){
-  //const cards=[]
-
-  //for(i=0; i < names.length; i++){
-    //const message= `Thank you ${names} for the wonderful ${events} gift!`
-     //cards.push(message)
-
-  //}
-//return cards
-
-//}
-
-
-
 function  writeCards(names,event){
+  
   let message=[]
   for (let i=0; i < names.length; i++)
   {
